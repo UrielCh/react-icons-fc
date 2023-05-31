@@ -4,7 +4,7 @@
 
 **Project** [https://github.com/icons8/flat-color-icons](https://github.com/icons8/flat-color-icons)
 
-[See available icons here](https://react-icons.github.io/react-icons/icons?name=fc)
+[See available icons here](https://react-icons.deno.dev/fc)
 
 ## import_map.json
 
@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fc":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.7/mod.ts",
-    "react-icons/fc/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.7/ico/",
+    "react-icons/fc":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.8/mod.ts",
+    "react-icons/fc/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.8/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib fc
 
 ```ts
-import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.7/mod.ts"
+import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.8/mod.ts"
 ```
 
 ## import_map import an icon from all icons
