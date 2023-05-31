@@ -15,7 +15,7 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fc":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.1/mod.ts",
+    "react-icons/fc":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.2/mod.ts",
     "react-icons/fc/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc/ico/",
   }
 }
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Direct import sample
 
 ```ts
-import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.1/mod.ts"
+import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.2/mod.ts"
 ```
 
 ## import_map import sample
