@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.1/mod.ts"`
+```ts
+import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { FcAbout } from "react-icons/fc"`
+```ts
+import { FcAbout } from "react-icons/fc"
+```
 
 ## minimal import
 
-`import { FcAbout } from "react-icons/fc/FcAbout.ts"`
+```ts
+import { FcAbout } from "react-icons/fc/FcAbout.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import FcAbout from "react-icons/fc/FcAbout.ts"`
+```ts
+import FcAbout from "react-icons/fc/FcAbout.ts"
+```
 
