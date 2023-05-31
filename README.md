@@ -13,18 +13,27 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact": "https://esm.sh/preact@10.15.1",
+    "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fc": "https://deno.land/x/react_icons_fc@1.0.0//mod.ts",
+    "react-icons/fc":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc@1.0.1/mod.ts",
+    "react-icons/fc/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fc/ico/",
   }
 }
 ```
 
 ## Direct import sample
 
-`import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.0/mod.ts"`
+`import { FcAbout } from "https://deno.land/x/react_icons_fc@1.0.1/mod.ts"`
 
 ## import_map import sample
 
 `import { FcAbout } from "react-icons/fc"`
+
+## minimal import
+
+`import { FcAbout } from "react-icons/fc/FcAbout.ts"`
+
+## minimal import default
+
+`import FcAbout from "react-icons/fc/FcAbout.ts"`
 
