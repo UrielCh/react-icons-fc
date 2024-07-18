@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import FcAbout from "react-icons/fc/FcAbout.ts"
+ * import FcAbout from "react-icons/fc/FcAbout"
  * ```
  * @module
  * 
